@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /googlec2385f65d1aa8af1.html
+Disallow: /css/
+Disallow: /js/
