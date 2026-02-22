@@ -1,3 +1,10 @@
+@import url('./theme.css');
+
+body {
+  color: var(--text-primary);
+  background-color: var(--bg-primary);
+}
+
 .intro {
   padding-top: 40px;
   max-width: 500px;
@@ -17,15 +24,16 @@
 .fa {
     font-size: 38px;
     padding: 0px 6px;
-    color:#4f4f4f;
+    color: var(--accent-color);
 }
 
 .fa:hover {
-    color: #000;
+    color: var(--accent-hover);
     text-decoration: none;
 }
 
 .semi-lead {
+    color: var(--text-secondary);
     margin-top: 10px;
     font-size: 15px;
     font-weight: 200;
